@@ -176,3 +176,7 @@ console.log(list.toString())
 console.log("Head Node: " + JSON.stringify(list.head()))
 console.log("Tail Node: " + JSON.stringify(list.tail()))
 console.log("List Size: " + list.size())
+
+console.log("At index: " + JSON.stringify(list.at(3)))
+console.log("Contains value: " + list.contains(15))
+console.log("Find value: " + list.find(15))
